@@ -82,6 +82,10 @@ class Entry(ecwb.WrapperBase):
             # user confirmation of the destination (unsure how this will
             # interact with purpose
             "manual/destination_confirm": "userlabel",
+            # Evaluation configuration
+            "config/evaluation_spec": "userlabel",
+            # Evaluation start/stop times
+            "manual/evaluation_transition": "evaltransition",
             # demographic survey
             "manual/demographic_survey": "onetimesurvey",
             ### END: incoming data types ###
